@@ -27,7 +27,7 @@ class MyFirstController extends AbstractController
         ]);
     }
 
-    #[Route('/sayHello/{name}', name: 'say.hello')]
+//    #[Route('/sayHello/{name}', name: 'say.hello')]
     public function sayHello(\Symfony\Component\HttpFoundation\Request $request, $name): Response
     {
         //dd($request);
